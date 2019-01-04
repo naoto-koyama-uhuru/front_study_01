@@ -1,0 +1,40 @@
+@charset "UTF-8";
+header {
+  height: 75px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header-left {
+  font-family: 'Ohmega Sans';
+  font-size: 20px;
+  float: left;
+  margin: 25px 0 26px;
+}
+
+.header-right {
+  float: right;
+  margin: 25px 0 26px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium";
+  font-size: 18px;
+  float: left;
+  margin-right: 48.08px;
+}
+
