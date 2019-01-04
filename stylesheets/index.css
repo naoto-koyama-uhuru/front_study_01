@@ -38,3 +38,15 @@ li {
   margin-right: 48.08px;
 }
 
+.top-wrapper {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  height: 900px;
+  margin-top: 75px;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper img {
+  margin-top: 378px;
+}
