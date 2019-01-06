@@ -12,6 +12,7 @@ header {
   width: 980px;
   margin: 0 auto;
   font-family: "Yu Gothic Medium", "游ゴシック Medium";
+  color: #333333;
 }
 
 .header-left {
@@ -110,4 +111,25 @@ li {
 
 .right {
   float: right;
+}
+
+.middle-wrapper {
+  background-image: url(../images/catbg.png);
+  background-size: cover;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  height: 900px;
+}
+
+.catbg-sentence {
+  position: relative;
+  width: 352px;
+  top: 101px;
+  left: 100%;
+  transform: translateX(-100%);
+  margin: 0;
+  padding: 98px 75px 150px 75px;
+  background-color: rgba(255,255,255, 0.51);
+  font-weight: bold;
 }
