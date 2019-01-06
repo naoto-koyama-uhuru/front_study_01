@@ -11,6 +11,7 @@ header {
 .container {
   width: 980px;
   margin: 0 auto;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium";
 }
 
 .header-left {
@@ -31,7 +32,6 @@ ul {
 
 li {
   list-style: none;
-  font-family: "Yu Gothic Medium", "游ゴシック Medium";
   font-size: 18px;
   float: left;
   margin-right: 48.08px;
@@ -52,7 +52,6 @@ li {
 
 .sentence-wrapper {
   margin-top: 99.5px;
-  font-family: "Yu Gothic Medium";
   font-size: 24px;
 }
 
@@ -64,4 +63,48 @@ li {
 
 .sentence {
   margin-bottom: 100px;
+}
+
+.cat1-wrapper {
+  background-color: #FCF6F2;
+}
+
+.cat1-header, .cat2-header {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 100px 0px;
+  margin: 0;
+}
+
+.description {
+  width: 100%;
+}
+
+.description:after {
+  content:" ";
+  display:block;
+  clear:both;
+}
+
+.description img {
+  height: 300px;
+}
+
+.cat1-wrapper .description img {
+  padding-bottom: 100px;
+}
+
+
+.description p {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+  .left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
