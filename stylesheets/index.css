@@ -117,7 +117,6 @@ li {
   background-image: url(../images/catbg.png);
   background-size: cover;
   margin-top: 100px;
-  position: absolute;
   width: 100%;
   height: 900px;
 }
@@ -133,3 +132,43 @@ li {
   background-color: rgba(255,255,255, 0.51);
   font-weight: bold;
 }
+
+.cat3-header {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 100px 0px 95.5px 0px;
+  margin: 0;
+}
+
+.cat3-div {
+  border-top: 1px #777777 solid;
+  padding: 13.5px 0 12.5px;
+}
+
+.border-bottom {
+  border-bottom: 1px #777777 solid;
+}
+
+.cat3-div span {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 4px;
+}
+
+.cat3-div .date {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 14px;
+}
+
+.cat3-div .new {
+  font-weight: bold;
+  font-size: 16px;
+  color: #AD2727;
+  border: solid #AD2727 1px;
+  padding: 4px 26px 5px;
+  margin-right: 37px;
+}
+
+
