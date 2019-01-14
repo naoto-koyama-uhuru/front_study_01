@@ -52,7 +52,7 @@ li {
 }
 
 .sentence-wrapper {
-  margin-top: 99.5px;
+  padding-top: 99.5px;
   font-size: 24px;
 }
 
@@ -63,7 +63,7 @@ li {
 }
 
 .sentence {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .cat1-wrapper {
