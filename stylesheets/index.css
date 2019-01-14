@@ -26,12 +26,12 @@ header {
   margin: 25px 0 26px;
 }
 
-ul {
+.header-right ul {
   padding: 0px;
   margin: 0px;
 }
 
-li {
+.header-right li {
   list-style: none;
   font-size: 18px;
   float: left;
@@ -171,4 +171,33 @@ li {
   margin-right: 37px;
 }
 
+.bottom-wrapper {
+  margin-top: 104.5px;
+  background-color: #8E8E8E;
+}
 
+.block-parrent {
+  color: #FFFFFF;
+  padding: 101px 0 100px;
+}
+
+.block-child {
+  width: 33%;
+  display: inline-block;
+}
+.block-child p {
+  border-bottom: solid 1px #FFFFFF;
+  font-weight: bold;
+  width: 300px;
+  height: 27px;
+  margin: 0;
+}
+
+.block-child ul {
+  padding: 29px 0 0 0;
+  margin: 0;
+}
+
+.block-child li {
+  list-style-position: inside;
+}
